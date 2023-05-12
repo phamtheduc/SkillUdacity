@@ -1,0 +1,39 @@
+{
+    "name": "project-image",
+    "version": "1.0.0",
+    "description": "My project image for udacity",
+    "main": "index.js",
+    "scripts": {
+      "build": "npx tsc",
+      "start": "nodemon src/index.ts",
+      "jasmine": "jasmine",
+      "test": "npm run build && npm run jasmine",
+      "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+      "lint": "eslint --ext .js,.ts ."
+    },
+    "keywords": [],
+    "author": "HanhNV4",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.18.2",
+      "jasmine": "^4.6.0",
+      "jasmine-spec-reporter": "^7.0.0",
+      "nodemon": "^2.0.22",
+      "sharp": "^0.32.1",
+      "supertest": "^6.3.3",
+      "ts-node": "^10.9.1"
+    },
+    "devDependencies": {
+      "@types/express": "^4.17.17",
+      "@types/jasmine": "^4.3.1",
+      "@types/node": "^20.1.0",
+      "@types/supertest": "^2.0.12",
+      "@typescript-eslint/eslint-plugin": "^5.59.2",
+      "@typescript-eslint/parser": "^5.59.2",
+      "eslint": "^8.40.0",
+      "eslint-plugin-prettier": "^4.2.1",
+      "prettier": "^2.8.8",
+      "typescript": "^5.0.4"
+    }
+  }
+  
