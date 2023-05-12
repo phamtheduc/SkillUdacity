@@ -5,7 +5,7 @@ import resizeImage from '../resize'
 const request = supertest(app)
 
 it('Expect resizeImage() result to equal value', async () => {
-  const result = await resizeImage('fjord', 200, 200)
+  const result = await resizeImage('Cat03', 200, 200)
   expect(result).toEqual(true)
 })
 
